@@ -1,0 +1,266 @@
+/* start gloabel rules*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Work Sans', sans-serif;
+     background-color: #a98888;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+   margin-left: auto;
+   margin-right: auto;
+}
+@media (min-width:768px) {
+    .container{
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container{
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container{
+        width: 1170px;
+    }
+}
+/* end gloabel rules*/
+.header {
+    padding: 20px;
+    background-color: #ab5959;
+}
+.header .container {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .container h3 {
+    font-weight: 800;
+    color: white;
+    font-size: 25px;
+}
+.header .container ul {
+    margin: 0;
+    padding: 0;
+    height: 36px;
+    line-height: 36px;
+}
+.header .container .links ul li {
+ float: left;
+ border-right: 2px solid #189b80 ;
+list-style: none;
+}
+.header .container .links ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+   
+    padding: 0 30px;
+
+}
+@media (max-width:606px) {
+    .header .container .links ul li a {
+        padding: 0 10px;
+    }
+}
+.header .container .links ul li a:hover {
+    
+    background-color: brown;
+}
+/* start items */
+
+#item {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: #ab5959;
+    margin: 30px 15px 20px 15px;
+}
+#item img {
+    width: 300px;
+    height:300px;
+}
+#item a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(141, 79, 79);
+    width: fit-content;
+    line-height: 1.4;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#item a p:last-of-type {
+    font-size: 15px;
+    font-weight: 400;
+    transition: 0.4;
+}
+#item a:hover{
+    background-color: brown;
+    color: #ccece6;
+    border-radius: 15px;
+}
+.contaier .last {
+    margin-bottom: 20px;
+}
+/* end items */
+/* about */
+.main {
+    width: 750px;
+    height: 300px;
+    border: 3px dashed black;
+    margin: 15% auto;
+    text-align: center;
+    background-color: #7d4242;
+}
+.main p {
+  
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+    padding: 20px;
+}
+/* about */
+/* login */
+.login {
+    width: 775PX;
+    height: 500PX;
+    
+    text-align: center;
+    margin: 30px auto;
+    border: dashed black 3px;
+}
+.login p {
+    margin-top: 20px;
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+.login .label {
+    display: block;
+    text-align: start;
+    margin: 10px;
+}
+.login input {
+    display: block;
+    text-align: start;
+    margin: 10px;
+}
+.login .sub {
+    color: rgb(27, 27, 27);
+    width:25%;
+    text-align: center;
+    background-color: #ab5959;
+}
+.login .sub:hover {
+    background-color: purple;
+    color: antiquewhite;
+}
+.login .regester p {
+    font-size: small;
+    
+}
+
+.login a {
+    text-decoration: none;
+    color:  brown;
+}
+.login a:hover {
+    text-decoration: underline;
+}
+
+.sign {
+    border: 3px dashed #333;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin: 5% auto;
+}
+.sign p {
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-size: 20px;
+    font-family: serif;
+}
+.sign .label {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+    display: block;
+    margin: 20px 10px;
+    font-family: serif;
+}
+.sign .input {
+    display: block;
+    text-align: start;
+    text-align:start;
+    margin: 20px 15px;
+    width: 300px;
+    height: auto;
+}
+.sign #reg {
+    width: fit-content;
+    background-color: #ab5959;
+}
+.sign #reg:hover {
+    background-color: purple;
+    color: beige;
+    transition: 0.3;
+    padding-left: 10px;
+}
+.sign .already a {
+    color:  brown;
+    text-decoration: none;
+}
+.sign .already a:hover{
+    text-decoration:underline;
+}
+
+/* login */
+/* contactus */
+.cont {
+    width: 500px;
+    height: 600px;
+    border: 3px dashed black;
+    text-align: center;
+    margin: 15% auto;
+}
+.cont .two {
+    padding: 10px 10px;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    max-width: 460px;
+}
+.cont label {
+    display: block;
+    padding: 10px 0;
+}
+.cont .submet {
+    background-color: #7d4242;
+    
+}
+.cont .submet:hover {
+    background-color: brown;
+}
+.cont select {
+    display: block;
+    text-align: center;
+}
+
+/* contactus */
